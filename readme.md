@@ -35,5 +35,5 @@ I wrote this up in C++ which wound up being absurdely over engineered. It's very
 We can see individual bites removing points in this video:
 
 <a href="https://youtu.be/wufyiJU0Lv4"><img src="https://img.youtube.com/vi/wufyiJU0Lv4/hqdefault.jpg"/></a>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wufyiJU0Lv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 The expectation value of this distribution is 521.92
