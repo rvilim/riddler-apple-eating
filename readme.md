@@ -2,7 +2,7 @@
 
 First we want to figure out the area that a bite will take up. We can do this by just integrating over the surface of a sphere
 
-<img src="https://github.com/rvilim/riddler-apple-eating/blob/master/images/integral_setup.png" height="100">
+<img src="https://github.com/rvilim/riddler-apple-eating/blob/master/images/integral_setup.png" height="60">
 
 where R is the radius of the apple. This gives
 
@@ -30,7 +30,7 @@ We have to make sure we calculate distances the correct way, and also sample cor
 
 I wrote this up in C++ which wound up being absurdely over engineered. It's very fast. Simulating 800000 apples (on one Apple Macbook) yields a distribution which looks like this.
 
-<img src="https://github.com/rvilim/riddler-apple-eating/blob/master/images/bites_dist.png" height="50">
+<img src="https://github.com/rvilim/riddler-apple-eating/blob/master/images/bites_dist.png">
 
 We can see individual bites removing points in this video:
 
