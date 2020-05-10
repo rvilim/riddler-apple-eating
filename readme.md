@@ -1,7 +1,7 @@
 ## How many bites to eat the apple?
 
 First we want to figure out the area that a bite will take up. We can do this by just integrating over the surface of a sphere
-![](images/integral_setup.png)
+![](images/integral_setup.png | height=100 )
 where R is the radius of the apple. This gives
 ![](images/bite_area.png)
 where r is the radius of the bite. If you Taylor expand the cosine you can see that as R tends to infinity, we recover the area of a circle of radius r, since the since the Apple becomes a plane.
