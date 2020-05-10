@@ -2,19 +2,25 @@
 #include "Apple.h"
 
 int main() {
+    const int NPoints=10000;
+    const int nDraws = 100000;
+    const int AppleRadius = 4;
+    const int BiteRadius= 1;
+
     std::array<int, 10000> bites;
     for(int i=0; i<10000;i++){
         bites[i]=0;
     }
-    const int nDraws = 100000;
-    Apple a(10000, 4, 1);
+
+    Apple a(NPoints, AppleRadius, BiteRadius);
     for (int i = 0; i < nDraws; i++) {
-        if(i%1000==0){
-            std::cout<<i/(double)nDraws<<std::endl;
-        }
         a.GenerateSpherePoints();
         auto b = a.Eat();
-        bites[b]++;
+
+        if(b<9999){
+            bites[b]++;
+        }
+
     }
 
     double expected_bites = 0;

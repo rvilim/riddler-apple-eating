@@ -35,3 +35,7 @@ I wrote this up in C++ which wound up being absurdely over engineered. It's very
 We can see individual bites removing points in this video: [https://youtu.be/wufyiJU0Lv4](https://youtu.be/wufyiJU0Lv4)
 
 The expectation value of this distribution is 521.92
+
+## Using this repo
+
+There is some C++ code to generate all these apples being eaten, it outputs to stdio the number of bites the apples took to eat and also calculates an expectation value at the end. This is a re
