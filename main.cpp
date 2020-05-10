@@ -3,7 +3,7 @@
 
 int main() {
     const int NPoints=10000;
-    const int nDraws = 100000;
+    const int nDraws = 1000;
     const int AppleRadius = 4;
     const int BiteRadius= 1;
 

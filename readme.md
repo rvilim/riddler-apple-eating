@@ -38,4 +38,12 @@ The expectation value of this distribution is 521.92
 
 ## Using this repo
 
-There is some C++ code to generate all these apples being eaten, it outputs to stdio the number of bites the apples took to eat and also calculates an expectation value at the end. This is a re
+There is some C++ code to generate all these apples being eaten, it outputs to stdio the number of bites the apples took to eat (csv) and also calculates an expectation value at the end. All the parameters (apple radius, bite radius etc) are just hardcoded in
+
+You can compile it using cmake, but you could also just run 
+
+```bash
+g++ main.cpp Apple.cpp -O3 -march=native -o apple
+```
+
+Data with 800000 roles is in data.csv
