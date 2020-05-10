@@ -6,7 +6,7 @@ First we want to figure out the area that a bite will take up. We can do this by
 
 where R is the radius of the apple. This gives
 
-<img src="https://github.com/rvilim/riddler-apple-eating/blob/master/images/bite_area.png" height="100">
+<img src="https://github.com/rvilim/riddler-apple-eating/blob/master/images/bite_area.png" height="50">
 
 where r is the radius of the bite. If you Taylor expand the cosine you can see that as R tends to infinity, we recover the area of a circle of radius r, since the since the Apple becomes a plane.
 
