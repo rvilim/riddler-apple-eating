@@ -12,13 +12,13 @@ where r is the radius of the bite. If you Taylor expand the cosine you can see t
 
 We can find out the probability of a given piece of the apple being bitten in a bite by dividing this through by the surface area of the apple
 
-<img src="https://github.com/rvilim/riddler-apple-eating/blob/master/images/prob_bite.png" height="100">
+<img src="https://github.com/rvilim/riddler-apple-eating/blob/master/images/prob_bite.png" height="50">
 
 Which for an apple radius of 4cm and a bite radius of 1cm, gives 0.016.
 
 If we frame this in terms of "How many bites does a place on the apple expect to have" we can make this a Poisson problem. 
 
-<img src="https://github.com/rvilim/riddler-apple-eating/blob/master/images/prob_bite.png" height="100">
+<img src="https://github.com/rvilim/riddler-apple-eating/blob/master/images/prob_bite.png" height="50">
 
 Is the expected # of bites in a place on the sphere after 1 bite. Unfortunately you can't extend this to "What is the expected number of bites until there are no unbitten regions left. So we turn to computers.
 
@@ -30,7 +30,7 @@ We have to make sure we calculate distances the correct way, and also sample cor
 
 I wrote this up in C++ which wound up being absurdely over engineered. It's very fast. Simulating 800000 apples (on one Apple Macbook) yields a distribution which looks like this.
 
-<img src="https://github.com/rvilim/riddler-apple-eating/blob/master/images/bites_dist.png" height="100">
+<img src="https://github.com/rvilim/riddler-apple-eating/blob/master/images/bites_dist.png" height="50">
 
 We can see individual bites removing points in this video:
 
